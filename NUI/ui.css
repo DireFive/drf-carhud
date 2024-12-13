@@ -1,0 +1,75 @@
+#container{
+    display: none;
+}
+
+#carhud{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 6vh;
+    left: 30vh;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+i{  
+    font-size: 18px;
+    padding: 5px;
+    font-weight: bold;
+    color: #d72de7;
+    filter: drop-shadow(0px 0px 2px #d72de7);
+}
+
+p{
+    padding: 0 2px;
+}
+
+#vector-output {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 2px;
+    padding: 5px 10px; 
+    font-size: 18px;
+    background-color: #d72de7;
+    font-weight: bold;
+    filter: drop-shadow(0px 0px 5px #d72de7);
+    padding-right: 10px;
+}
+
+
+
+#container-street{
+    width: 220px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 1.8vh;
+    left: 30vh;
+    background-color: rgba(0, 0, 0, 0.458);
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+#container-street :nth-child(2){
+    padding-left: 8px;
+}
